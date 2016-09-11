@@ -1,0 +1,64 @@
+.navigation{
+    width: 100%;
+    background-color: $medium-color;
+}
+
+.box-header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+
+    .icon-home{
+        color: $background-color;
+        padding: 0.5rem;
+        font-size: 80px;
+    }
+    
+    .toggle-menu{
+        color: $background-color;
+        padding: 0.5rem;
+        font-size: 80px;
+    }
+}
+
+
+.navigation-menu{
+    width: 100%;
+    margin-top: 0px;
+    display: none;
+    
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-left: 0px;
+    
+
+    
+    
+    .navigation-menu-item{
+        width: 100%;
+        height: 3rem;
+        line-height: 2rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 2rem;
+        border-bottom: 1px solid darken($dark-color, 10%);
+        
+        a{
+            text-decoration: none;
+            color: $background-color;
+        }
+        
+        
+    }
+}
+
+.menu-visible{
+    display: flex;
+}
+

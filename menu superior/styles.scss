@@ -1,0 +1,23 @@
+
+//COLOR
+$background-color : #EEEEEE;
+$font-color : black;
+$dark-color : #303841;
+$medium-color : #3A4750;
+$red-color : #D72323;
+
+
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+$font: 'Roboto';
+
+
+*{
+    box-sizing: border-box;
+    font-family: $font;
+    font-size: 1.8rem;
+}
+
+
+
+@import "styles/_head-menu";
+

@@ -1,0 +1,85 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-size: 1.8rem;
+}
+
+.navigation {
+  width: 100%;
+  background-color: #3A4750;
+}
+
+.box-header {
+  height: 100px;
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+}
+
+.box-header .icon-home {
+  color: #EEEEEE;
+  padding: 0.5rem;
+  font-size: 80px;
+}
+
+.box-header .toggle-menu {
+  color: #EEEEEE;
+  padding: 0.5rem;
+  font-size: 80px;
+}
+
+.navigation-menu {
+  width: 100%;
+  margin-top: 0px;
+  display: none;
+  height: 0px;
+  transition: all 3s ease;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.navigation-menu .navigation-menu-item {
+  width: 100%;
+  height: 3rem;
+  line-height: 2rem;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 2rem;
+  border-bottom: 1px solid #1a1f24;
+}
+
+.navigation-menu .navigation-menu-item a {
+  text-decoration: none;
+  color: #EEEEEE;
+}
+
+.menu-visible {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+}
